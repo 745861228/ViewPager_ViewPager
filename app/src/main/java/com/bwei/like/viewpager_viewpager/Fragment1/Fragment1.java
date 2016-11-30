@@ -30,6 +30,7 @@ public class Fragment1 extends Fragment {
         pic.add(R.drawable.feng1);
         pic.add(R.drawable.feng2);
         pic.add(R.drawable.feng3);
+        //22222222222222
         return inflate;
     }
 
