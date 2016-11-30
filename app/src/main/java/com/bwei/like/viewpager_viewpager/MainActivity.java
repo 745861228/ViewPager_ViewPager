@@ -36,10 +36,13 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new Fragment2();
                         break;
 
+                        //返回fragment3，创建视图。。。
                     case 2:
                         //创建fragmen3
                         fragment = new Fragment3();
                         break;
+                        
+                        //v昂克赛拉付款了梅兰芳没问过
                 }
                 return fragment;
             }
