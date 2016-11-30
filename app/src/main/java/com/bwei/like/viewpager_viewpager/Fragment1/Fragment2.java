@@ -17,6 +17,7 @@ public class Fragment2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         TextView textView = new TextView(getActivity());
         textView.setText("fragment2");
+        //
         return textView;
     }
 }

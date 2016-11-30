@@ -54,6 +54,7 @@ public class Fragment1 extends Fragment {
                 ImageView imageView = new ImageView(getActivity());
                 imageView.setImageResource(pic.get(position));
                 container.addView(imageView);
+                //返回
                 return imageView;
             }
 

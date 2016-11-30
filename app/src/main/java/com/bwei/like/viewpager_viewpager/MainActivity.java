@@ -27,14 +27,17 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment = null;
                 switch (position){
                     case 0:
+                        //创建fragmen1
                         fragment = new Fragment1();
                         break;
 
                     case 1:
+                        //创建fragmen2
                         fragment = new Fragment2();
                         break;
 
                     case 2:
+                        //创建fragmen3
                         fragment = new Fragment3();
                         break;
                 }
